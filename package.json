@@ -1,9 +1,9 @@
 {
+  "homepage": "https://pranavkharche79.github.io/Car-Rental-Project-With-AI/",
   "name": "@figma/my-make-file",
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://pranavkharche79.github.io/Car-Rental-Project-With-AI/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -68,6 +68,7 @@
   },
   "devDependencies": {
     "@tailwindcss/vite": "4.1.12",
+    "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "4.7.0",
     "gh-pages": "^6.3.0",
     "tailwindcss": "4.1.12",
