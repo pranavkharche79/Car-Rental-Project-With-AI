@@ -4,12 +4,8 @@ import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: "/Car-Rental-Project-With-AI/", // 👈 ADD THIS (must match GitHub repo name)
-  plugins: [
-    // Required plugins – do not remove
-    react(),
-    tailwindcss(),
-  ],
+  base: "/Car-Rental-Project-With-AI/", // ✔ must EXACTLY match your repo name
+  plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
