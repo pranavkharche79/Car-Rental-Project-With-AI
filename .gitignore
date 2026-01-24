@@ -8,9 +8,6 @@ node_modules/
 # ===============================
 # Production builds
 # ===============================
-build/
-dist/
-out/
 
 # ===============================
 # Environment variables
