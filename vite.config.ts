@@ -4,8 +4,8 @@ import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: "/Car-Rental-Project-With-AI/", // ✔ must EXACTLY match your repo name
   plugins: [react(), tailwindcss()],
+  base: "/Car-Rental-Project-With-AI/", // ✔ must EXACTLY match your repo name
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
