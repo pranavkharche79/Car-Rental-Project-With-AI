@@ -1,5 +1,14 @@
-import { Car, Facebook, Twitter, Instagram, Mail, Phone, MapPin } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import {
+  Car,
+  Facebook,
+  Twitter,
+  Instagram,
+  Mail,
+  Phone,
+  MapPin,
+} from "lucide-react";
+import { Link } from "react-router-dom";
+import React from "react";
 
 export function Footer() {
   return (
@@ -39,17 +48,26 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/browse" className="hover:text-blue-500 transition-colors">
+                <Link
+                  to="/browse"
+                  className="hover:text-blue-500 transition-colors"
+                >
                   Browse Cars
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="hover:text-blue-500 transition-colors">
+                <Link
+                  to="/about"
+                  className="hover:text-blue-500 transition-colors"
+                >
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="hover:text-blue-500 transition-colors">
+                <Link
+                  to="/contact"
+                  className="hover:text-blue-500 transition-colors"
+                >
                   Contact
                 </Link>
               </li>
