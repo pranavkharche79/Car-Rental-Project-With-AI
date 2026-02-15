@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/Car-Rental-Project-With-AI/", // ✔ must EXACTLY match your repo name
+  base: "/", // Use "/" for Vercel (root). Use "/Car-Rental-Project-With-AI/" only for GitHub Pages.
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
